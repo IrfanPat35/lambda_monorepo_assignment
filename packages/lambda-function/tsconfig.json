@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["jest"]  // Ensure 'jest' is listed here
+  },
+  "include": ["src/**/*.ts", "src/@types/**/*.d.ts", "tests/**/*.ts"]
+}
